@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "layer0": "layer0",
     "layer0:dev": "layer0 dev",
     "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy layer0-docs",
+    "layer0:deploy": "layer0 deploy --team=layer0-docs",
+    "layer0": "layer0",
     "deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
@@ -74,12 +74,12 @@
     "tailwindcss": "^1.9"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.6.0",
-    "@layer0/core": "^3.6.0",
-    "@layer0/devtools": "^3.6.0",
-    "@layer0/next": "^3.6.0",
-    "@layer0/prefetch": "^3.6.0",
-    "@layer0/react": "^3.6.0",
+    "@layer0/cli": "^4.13.5",
+    "@layer0/core": "^4.13.5",
+    "@layer0/devtools": "^4.13.5",
+    "@layer0/next": "^4.13.5",
+    "@layer0/prefetch": "^4.13.5",
+    "@layer0/react": "^4.13.5",
     "@next/bundle-analyzer": "^10.0.1",
     "@types/bunyan": "^1.8.6",
     "@types/bunyan-prettystream": "^0.1.31",
