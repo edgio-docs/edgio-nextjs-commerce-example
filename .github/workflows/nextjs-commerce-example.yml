@@ -3,7 +3,7 @@ name: Deploy Next Commerce Example to Layer0
 on: push
 
 jobs:
-  deploy-example:
+  Deploy-to-Layer0:
     runs-on: ubuntu-latest
     steps:
       - name: Extract branch name
@@ -26,7 +26,8 @@ jobs:
             ${{ runner.os }}-
       - name: Next.js Commerce Example - Deploy to Layer0
         run: |
-          npm ci
-          npm run layer0:deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'master' && '--environment=staging' || ''}}
+          yarn install --immutable --immutable-cache
+          npm run build
+          npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$LAYER0_DEPLOY_TOKEN ${{env.BRANCH_NAME != 'master' && '--environment=staging' || ''}}
         env:
-          deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
+          LAYER0_DEPLOY_TOKEN: ${{secrets.LAYER0_DEPLOY_TOKEN}}
