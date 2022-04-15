@@ -1,21 +1,67 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fcommerce&project-name=commerce&repo-name=commerce&demo-title=Next.js%20Commerce&demo-description=An%20all-in-one%20starter%20kit%20for%20high-performance%20e-commerce%20sites.&demo-url=https%3A%2F%2Fdemo.vercel.store&demo-image=https%3A%2F%2Fbigcommerce-demo-asset-ksvtgfvnd.vercel.app%2Fbigcommerce.png&integration-ids=oac_MuWZiE4jtmQ2ejZQaQ7ncuDT,oac_9HSKtXld74NG0srzdxSiBGty&skippable-integrations=1&root-directory=site&build-command=cd%20..%20%26%26%20yarn%20build)
+/// New
+# Deploy Next.js Commerce + BigCommerce example to Layer0
 
-# Next.js Commerce
+A demo deployment of Next.js Commerce leveraging BigCommerce to power the storefront backend to Layer0.
 
 The all-in-one starter kit for high-performance e-commerce sites. With a few clicks, Next.js developers can clone, deploy and fully customize their own store.
-Start right now at [nextjs.org/commerce](https://nextjs.org/commerce)
 
-Demo live at: [demo.vercel.store](https://demo.vercel.store/)
+## Demo
 
-- Shopify Demo: https://shopify.vercel.store/
-- Swell Demo: https://swell.vercel.store/
-- BigCommerce Demo: https://bigcommerce.vercel.store/
-- Vendure Demo: https://vendure.vercel.store
-- Saleor Demo: https://saleor.vercel.store/
-- Ordercloud Demo: https://ordercloud.vercel.store/
-- Spree Demo: https://spree.vercel.store/
-- Kibo Commerce Demo: https://kibocommerce.vercel.store/
-- Commerce.js Demo: https://commercejs.vercel.store/
+https://layer0-docs-layer0-nextjs-commerce-default.layer0-limelight.link/
+
+## Detailed Guides
+
+- [Next.js Commerce](https://docs.layer0.co/guides/next_commerce)
+- [BigCommerce](https://docs.layer0.co/guides/next_commerce) - includes details on setting up your BigCommerce store.
+
+## Try It Now
+
+[![Deploy with Layer0](https://docs.layer0.co/button.svg)](https://app.layer0.co/deploy?repo=https://github.com/layer0-docs/layer0-nextjs-example)
+
+## Getting Started
+
+### Clone This Repo
+
+Use `git clone https://github.com/layer0-docs/layer0-nextjs-example.git` to get the files within this repository onto your local machine.
+
+### Install dependencies
+
+On the command line, in the project root directory, run the following command:
+
+```bash
+yarn install
+```
+
+### Run the Next.js app locally on Layer0
+
+Run the Next.js app with the command:
+
+```bash
+cd site
+npm run layer0:dev
+```
+
+Load the site: http://127.0.0.1:3000
+
+### Testing production build locally with Layer0
+
+You can do a production build of your app and test it locally using:
+
+```bash
+layer0 build && layer0 run --production
+```
+
+Setting --production runs your app exactly as it will be uploaded to the Layer0 cloud using serverless-offline.
+
+## Deploying to Layer0
+
+Deploying requires an account on Layer0. [Sign up here for free](https://app.layer0.co/signup). Once you have an account, you can deploy to Layer0 by running the following in the root folder of your project:
+
+```bash
+npm run deploy
+```
+
+See [deploying](https://docs.layer0.co/guides/deploying) for more information.
 
 ## Features
 
@@ -91,18 +137,6 @@ For example: Turning `cart` off will disable Cart capabilities.
 Follow our docs for [Adding a new Commerce Provider](packages/commerce/new-provider.md).
 
 If you succeeded building a provider, submit a PR with a valid demo and we'll review it asap.
-
-## Contribute
-
-Our commitment to Open Source can be found [here](https://vercel.com/oss).
-
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device.
-2. Create a new branch `git checkout -b MY_BRANCH_NAME`
-3. Install the dependencies: `yarn`
-4. Duplicate `site/.env.template` and rename it to `site/.env.local`
-5. Add proper store values to `site/.env.local`
-6. Run `cd site` and `yarn dev` to build and watch for code changes
-7. Run `yarn turbo run build` to check the build after your changes
 
 ## Work in progress
 
