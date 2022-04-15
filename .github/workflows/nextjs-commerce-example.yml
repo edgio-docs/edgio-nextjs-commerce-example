@@ -28,6 +28,6 @@ jobs:
         run: |
           yarn install --immutable --immutable-cache
           npm run build
-          npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token ${{env.BRANCH_NAME != 'master' && '--environment=staging' || ''}}
+          npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$LAYER0_DEPLOY_TOKEN ${{env.BRANCH_NAME != 'master' && '--environment=staging' || ''}}
         env:
-          deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
+          LAYER0_DEPLOY_TOKEN: ${{secrets.LAYER0_DEPLOY_TOKEN}}
