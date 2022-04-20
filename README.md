@@ -1,4 +1,3 @@
-/// New
 # Deploy Next.js Commerce + BigCommerce example to Layer0
 
 A demo deployment of Next.js Commerce leveraging BigCommerce to power the storefront backend to Layer0.
