@@ -1621,10 +1621,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@layer0/cli@^4.13.2":
-  version "4.13.2"
-  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-4.13.2.tgz#61b966e0a54425261995bb920bf5f899a513bd3a"
-  integrity sha512-jvaraWY3gR7MWueuZzkhtlaE8ae+3r1t388Z0xzo5CqD+RJYIpcARM//KnU+pQaX/vzFBXYAoBFxwQAlfRY7Cg==
+"@layer0/cli@^4.13.5":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-4.13.8.tgz#7b9219729e5560fcd85df45853a7ebe08dac77e5"
+  integrity sha512-stMyusrl9YYaNdVR26pCu7/gATkmNZZsVTt1ehaES62RHIBBRePz07RpqtJbxK9oOoXU1EezVjEM0LTBcq0nMQ==
   dependencies:
     axios "^0.21.2"
     chalk "^4.1.2"
@@ -1663,10 +1663,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@layer0/core@^4.13.2":
-  version "4.13.2"
-  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-4.13.2.tgz#aecd36606cf1cf845844ca303d1c35f9b7e96582"
-  integrity sha512-b+kvvHbKFEKtSIJJcpWmbQqgQjvpIQZl/esHv2ZepMJ/WaIZthK6+DjYufzuqOmRcmIgUruoMC2W4RiP7X+nzg==
+"@layer0/core@^4.13.5", "@layer0/core@^4.13.8":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-4.13.8.tgz#2308433d83e557ac6b559996d25fe704e8a7508d"
+  integrity sha512-BFjDSBGMHF5FJ4HWDatJfT7gMeL1jctukujrl3SepSLAiG+b+bxaIQfNgnJZ/5CO/BxFYxM7dSC5KvQpW7tfQw==
   dependencies:
     "@babel/parser" "^7.16.2"
     "@babel/traverse" "^7.16.0"
@@ -1703,10 +1703,10 @@
     unixify "^1.0.0"
     uuid "^8.3.2"
 
-"@layer0/devtools@^4.13.2":
-  version "4.13.2"
-  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-4.13.2.tgz#f5ae231522c6fece823e7e4e9fb9428e8e5611fe"
-  integrity sha512-GK6f/rXr1OmZxSU7NQRmMZbgYObIwgP6tQA+mN2iI73m9dlO1fWrcg6lnkmBhHogqInrQbmfQNnZ9998UNlR8Q==
+"@layer0/devtools@^4.13.5":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-4.13.8.tgz#1caaebf545cc3d941704801df1fae0c21e2a42ee"
+  integrity sha512-d9xeULrIg6Hg8XOz5hJUspqvU9+JEiIawg59boH0vel6eSUogA0wzNaQP/M7iCxp6xMs7/ZI9dK0J8GDUpC/UQ==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
@@ -1732,12 +1732,12 @@
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
 
-"@layer0/prefetch@^4.13.2":
-  version "4.13.2"
-  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-4.13.2.tgz#ebc32834144980b1c23525efaee9a900e864e6ce"
-  integrity sha512-ahqcz94ULAShvn326HE6ovD664nNNXcQrsZ510W8WM8+Vu3KqQ9DyBqD2JUCMREEvyHvc3jn3YRzc+lnwMjZVQ==
+"@layer0/prefetch@^4.13.8":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-4.13.8.tgz#7223d6320589f12aefe43a4f5cd8782ff444b51f"
+  integrity sha512-lVYATCbXXS+BqGHqiAYZJR9nUxMthNAU7jqXLBYl1PU4UV5oTTks87W7OsjED6CQtZ0CqrPWNtAuBVxUOXNpPw==
   dependencies:
-    "@layer0/core" "^4.13.2"
+    "@layer0/core" "^4.13.8"
     cheerio "^1.0.0-rc.3"
     json-query "^2.2.2"
     workbox-cacheable-response "^5.1.2"
@@ -1747,10 +1747,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/react@^4.13.2":
-  version "4.13.2"
-  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-4.13.2.tgz#d23c02a5c0d84449ed1bf0b2a83eacde8dfaaedd"
-  integrity sha512-JNI1uo0sQPxLg+FL8Q5NYxTOSYza9BNNIEcVCbPzWaRM58rAYEfor/1gAkBrnT7jJFnIKCgXfge0w/6ezfTsAQ==
+"@layer0/react@^4.13.5":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/react/-/react-4.13.8.tgz#83ff9d5bade7a472a686b88dbe1429066dc84bad"
+  integrity sha512-Fb7zlcBApjostlBjCSydknG/oo30W7YOxp6a/ejRIVyM5VwRgxt7HLbBkD2Xip5m4U2JhcWViISXD8Q4IKExmA==
   dependencies:
     prop-types "^15.8.1"
     react-merge-refs "^1.1.0"
